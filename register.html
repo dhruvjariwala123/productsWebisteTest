@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        <img src="logo.png" alt="logo" id="logo" width="50px" height="50px">
+    </div>
+    <div id="navBar">
+        <div id="nav">
+            <li class="navElement"><a href="index.html">Home</a></li>
+            <li class="navElement"><a href="aboutUs.html">About Us</a></li>
+            <li class="navElement"><a href="contactUs.html">Contact Us</a></li>
+            <li class="navElement"><a href="register.html">Register</a></li>
+            <li class="navElement"><a href="login.html">Login</a></li>
+        </div>
+    </div>
+    <h2 id="heading">Registration Form</h2></br>
+    <div id="registerContainer">
+        <div class="row">
+            <label for="firstName" class="label" >First Name:</label>
+            <input type="text" class="input" id="firstName" value="">
+            <label class="result"></label>
+        </div>
+        <div class="row">
+            <label for="lastName" class="label">Last Name:</label>
+            <input type="text" class="input" id="lastName" value="">
+            <label class="result"></label>
+        </div>
+        <div class="row">
+            <label for="emailId"  class="label">Email Id:</label>
+            <input type="text" class="input" id="emailId" value="">
+            <label class="result"></label>
+        </div>
+        <div class="row">
+            <label for="password" class="label">Password:</label>
+            <input type="text" class="input" id="password" value="">
+            <label class="result"></label>
+        </div>
+        <div class="row">
+            <label for="confirmPassword"  class="label">Confirm Password:</label>
+            <input type="text" class="input" id="confirmPassword" value="">
+            <label class="result"></label>
+        </div>
+        <input type="button" id="submit" value="Submit">
+    </div>
+    <script src="jquery.js"></script>
+    <script src="register.js"></script>
+</body>
+</html>

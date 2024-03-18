@@ -1,0 +1,243 @@
+html,
+body {
+    margin: 0px;
+    width: 100%;
+    min-width: fit-content;
+    height: 100%;
+    min-height: fit-content;
+    font-size: 15px;
+    background-color: rgb(189, 245, 219);
+}
+
+#header {
+    display: flex;
+    background-color: #86d789;
+    width: 100%;
+    height: 50px;
+    padding-left: 5px;
+}
+
+#navBar {
+    display: flex;
+    background-color: #4caf50;
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vmax;
+}
+
+#categoryTab {
+    margin: 15px 0px 0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #b3ffbb;
+    width: fit-content;
+    min-width: 120px;
+    height: fit-content;
+    padding: 5px 5px 10px 10px;
+    box-shadow: 3px 3px 10px #333;
+
+}
+
+#categoryTab p {
+    padding: 2px;
+}
+
+#productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0px 0px 30px;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    background-color: #ffffff;
+    width: 100px;
+    height: 40px;
+    margin: auto 0px auto 5px;
+    box-shadow: 1px 1px 3px 1px rgb(3, 3, 3);
+}
+
+#searchBox {
+    width: 200px;
+    height: 24px;
+    margin: auto 0px auto 50px;
+    padding: 4px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+#nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navElement {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navElement a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navElement a:hover {
+    background-color: #333;
+}
+
+#productCount {
+    color: white;
+}
+
+.category {
+    width: fit-content;
+    height: fit-content;
+    padding: 2px 12px 2px 12px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 4px rgb(105, 105, 105);
+}
+
+.category:hover {
+    background-color: #333;
+    cursor: pointer;
+    color: white;
+}
+
+.productDisplay {
+    background-color: #99f59c;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 220px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px rgb(105, 105, 105);
+}
+
+.productImage {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+.productName {
+    margin-top: 8px;
+}
+
+.productRate {
+    margin-top: 5px;
+}
+
+#product {
+    padding-left: 15px;
+    display: grid;
+    grid-template-rows: 300Px;
+    grid-auto-rows: 300px;
+    grid-auto-columns: 300px;
+    grid-template-columns: 330px 330px 330px 330px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.selectedProductDisplay {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px 10px 30px;
+    width: 300px;
+    height: fit-content;
+    padding: 10px;
+    background-color: #86d789;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px rgb(105, 105, 105);
+}
+
+.productDetailes {
+    margin: 5px;
+}
+
+.btn {
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: solid 2px white;
+}
+
+#searchButton {
+    padding: 6px;
+    margin: auto 0px auto 2px;
+}
+
+/* register */
+.input {
+    display: block;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    border: solid 2px;
+}
+
+#submit {
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 0px 155px;
+    background-color: white;
+    border: solid 1px;
+    border-radius: 2px;
+}
+
+#registerContainer {
+    padding: 10px 25px 10px 20px;
+    margin: auto;
+    width: 380px;
+    border: solid 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#heading {
+    margin: auto;
+    text-align: center;
+}
+
+.result {
+    margin-left: 5px;
+}
+
+/* about page */
+#aboutContainer {
+    text-align: center;
+    padding: 5px;
+    border: solid 2px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* contact Us */
+#contactContainer {
+    text-align: center;
+    padding: 5px;
+    border: solid 2px;
+    margin: 10px;
+    border-radius: 5px;
+}
